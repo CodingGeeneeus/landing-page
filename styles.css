@@ -68,7 +68,7 @@ a {
 .sign-up-text {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     margin-left: 200px;
     margin-right: 200px;
     flex: 1;
@@ -101,8 +101,125 @@ button {
     padding-right: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
-    border: 0;
+    border-color: #3382f6;
     border-radius: 5px;
 
 }
 
+.info {
+    display: flex;
+    flex-direction: column;
+    background-color: #f2eecb;
+    height: 350px;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.info .title {
+    display: flex;
+    color: black;
+    font-size: 36px;
+    text-align: center;
+    
+    
+}
+
+.info ul {
+    justify-content: center;
+
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li img {
+    height: 150px;
+    width:  150px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.quote {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    font-style: italic;
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 5px;
+    height: 125px;
+    width: 300px;
+
+    
+}
+
+.author {
+    padding: 0;
+    height: 30px;
+}
+
+.footer em {
+    color: rgb(247, 215, 155);
+}
+
+.footer {
+    display: flex;
+    height: 100px;
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: #f2eecb;
+
+}
+
+.bubble {
+    display: flex;
+    background-color: #3382f6;
+    height: 150px;
+    width: 900px;
+    border-radius: 10px;
+    font-family: 'roboto', sans-serif;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+h4 {
+    padding: 5px;
+    margin: 0;
+    margin-left: 5px;
+    color: white;
+    display: flex;
+    padding: 10px;
+}
+
+.text {
+    width: 400px;
+    color: white;
+    margin-left: 5px;
+    padding: 10px;
+    font-size: 18px;
+    gap: 10px;
+    text-align: center;
+}
+
+.bubble button {
+    color: #fff;
+    font-family: 'Roboto', arial;
+    border-color: #fff;
+    border-radius: 8px;
+    background-color: #3882F6;
+    padding: 5px 25px;
+    font-size: 15px;
+}

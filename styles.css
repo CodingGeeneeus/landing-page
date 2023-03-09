@@ -1,0 +1,108 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7ebb4;
+    font-size: 18px;
+    font-family: 'roboto', sans-serif;
+
+}
+
+.links {
+    padding-right: 20px;
+}
+
+.logo {
+    color: #f9faf8;
+    font-family: 'roboto', sans-serif;
+    font-size: 24px ;
+    font-weight: bold;
+}
+
+.main-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    height: 400px;
+    padding: 10px;
+}
+
+.sub-card {
+    display: flex;
+    justify-content: center;
+    flex-shrink: 1;
+}
+
+
+.sub-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 400px;
+    font-family: 'roboto', sans-serif;
+    font-size: 18px;
+    color: #e5e7ebb4;
+    padding: 5px;
+    padding-left: 0;
+}
+
+.sign-up-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+    flex: 1;
+}
+
+.title {
+    color: white;
+    font-family: 'roboto', sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 400px;
+}
+
+img {
+    display: flex;
+    height: 206.66px;
+    width: auto;
+    flex flex-shrink: 0;
+    
+}
+
+
+button {
+    color: white;
+    background-color: #3382f6;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 0;
+    border-radius: 5px;
+
+}
+
